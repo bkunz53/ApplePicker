@@ -508,7 +508,7 @@ Prefab:
     - target: {fileID: 114570184895197782, guid: 743395f97e1af8241bf2c3e674682b3d,
         type: 2}
       propertyPath: chanceToChangeDirections
-      value: 0.1
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 114570184895197782, guid: 743395f97e1af8241bf2c3e674682b3d,
         type: 2}
@@ -519,6 +519,11 @@ Prefab:
     - target: {fileID: 1201621393647690, guid: 743395f97e1af8241bf2c3e674682b3d, type: 2}
       propertyPath: m_Name
       value: Leaves
+      objectReference: {fileID: 0}
+    - target: {fileID: 114570184895197782, guid: 743395f97e1af8241bf2c3e674682b3d,
+        type: 2}
+      propertyPath: secondsBetweenAppleDrops
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 743395f97e1af8241bf2c3e674682b3d, type: 2}
